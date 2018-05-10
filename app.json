@@ -21,11 +21,20 @@
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
       "value": "http://yourappname.herokuapp.com/parse"
     },
+    
     "SERVER_START_LIVE_QUERY_SERVER": {
       "description": "Starts the liveQuery server",
       "value": "true"
     },
     "SERVER_LIVE_QUERY": {
+      "description": "parse-server's LiveQuery configuration object",
+      "value": "{'classNames':['Message','Group']}"
+    },
+    "PARSE_SERVER_LIVE_QUERY": {
+      "description": "parse-server's LiveQuery configuration object",
+      "value": "{'classNames':['Message','Group']}"
+    },
+    "liveQuery": {
       "description": "parse-server's LiveQuery configuration object",
       "value": "{'classNames':['Message','Group']}"
     }

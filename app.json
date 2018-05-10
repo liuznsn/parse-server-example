@@ -27,7 +27,7 @@
     },
     "SERVER_LIVE_QUERY": {
       "description": "parse-server's LiveQuery configuration object",
-      "value": "{\"classNames\":[\"Message\",\"Group\"]}"
+      "value": "{'classNames':['Message','Group']}"
     }
   },
   "image": "heroku/nodejs",

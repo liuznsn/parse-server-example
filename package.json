@@ -5,13 +5,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ParsePlatform/parse-server-example"
+    "url": "https://github.com/liuznsn/parse-server-example"
   },
   "license": "MIT",
   "dependencies": {
-    "express": "~4.11.x",
+    "express": "~4.16.x",
     "kerberos": "~0.0.x",
-    "parse": "~1.8.0",
+    "parse": "~1.11.1",
     "parse-server": "*"
   },
   "scripts": {

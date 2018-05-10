@@ -1,7 +1,7 @@
 {
   "name": "Parse Server Example",
   "description": "An example Parse API server using the parse-server module",
-  "repository": "https://github.com/ParsePlatform/parse-server-example",
+  "repository": "https://github.com/liuznsn/parse-server-example",
   "logo": "https://avatars0.githubusercontent.com/u/1294580?v=3&s=200",
   "keywords": ["node", "express", "parse"],
   "env": {
@@ -20,6 +20,14 @@
     "SERVER_URL": {
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
       "value": "http://yourappname.herokuapp.com/parse"
+    },
+    "SERVER_START_LIVE_QUERY_SERVER": {
+      "description": "Starts the liveQuery server",
+      "value": true
+    },
+    "SERVER_LIVE_QUERY": {
+      "description": "parse-server's LiveQuery configuration object",
+      "value": "{\"classNames\":[\"Message\",\"Group\"]}"
     }
   },
   "image": "heroku/nodejs",

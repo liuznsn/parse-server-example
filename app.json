@@ -24,6 +24,10 @@
     "SERVER_START_LIVE_QUERY_SERVER": {
       "description": "Starts the liveQuery server",
       "value": "true"
+    },
+    "SERVER_LIVEQUERY_CLASSNAMES": {
+      "description": "parse-server's LiveQuery classNames",
+      "value": "{\"classNames\":[\"Message\",\"Group\"]}"
     }
   },
   "image": "heroku/nodejs",
